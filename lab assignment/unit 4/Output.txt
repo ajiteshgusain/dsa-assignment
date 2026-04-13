@@ -1,0 +1,19 @@
+PS C:\Users\ajite\OneDrive\Desktop\ASSIGNMENT FOLDER\assignment of second sem\dsa assignment\lab assignment\unit 4> python -u "c:\Users\ajite\OneDrive\Desktop\ASSIGNMENT FOLDER\assignment of second sem\dsa assignment\lab assignment\unit 4\dmmt_tookit.py"
+--- TASK 1: BINARY SEARCH TREE ---
+Initial Inorder: [20, 30, 40, 50, 60, 70, 80]
+Search 20: True | Search 90: False
+After deleting 20 (Leaf): [30, 40, 50, 60, 70, 80]
+After deleting 60 (One Child): [30, 40, 50, 65, 70, 80]
+After deleting 50 (Two Children): [30, 40, 65, 70, 80]
+
+--- TASK 2: GRAPH TRAVERSAL ---
+Adjacency List: {'A': [('B', 2), ('C', 4)], 'B': [('D', 7), ('E', 3)], 'C': [('E', 1), ('F', --- TASK 2: GRAPH TRAVERSAL ---
+Adjacency List: {'A': [('B', 2), ('C', 4)], 'B': [('D', 7), ('E', 3)], 'C': [('E', 1), ('F', 8)], 'D': [('F', 5)], 'E': [('D', 2), ('F', 6)]}
+BFS from A: ['A', 'B', 'C', 'D', 'E', 'F']
+DFS from A: ['A', 'B', 'D', 'F', 'E', 'C']
+
+--- TASK 3: HASH TABLE (SIZE 5) ---
+Hash Table Structure: [[(10, 'Value_10'), (15, 'Value_15'), (20, 'Value_20')], [], [(7, 'Value_7'), (12, 'Value_12')], [], []]
+Get key 7: Value_7
+Bucket 0 after deleting 15: [(10, 'Value_10'), (20, 'Value_20')]
+PS C:\Users\ajite\OneDrive\Desktop\ASSIGNMENT FOLDER\assignment of second sem\dsa assignment\lab assignment\unit 4>
