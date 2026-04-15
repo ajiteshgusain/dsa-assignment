@@ -7,7 +7,7 @@ def demo_mode(pm, fn):
     print("\n" + "="*40)
     print("   LOADING DEMO DATA...   ")
     users = [
-        ("u1", "Aditya", 19, ["AI", "Robotics"]),
+        ("u1", "Ajitesh", 19, ["AI", "Robotics"]),
         ("u2", "Sneha", 22, ["Law"]),
         ("u3", "Rahul", 20, ["Gaming"]),
         ("u4", "Priya", 19, ["AI"]),
